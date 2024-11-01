@@ -74,6 +74,21 @@ justify-content: space-between;
     margin: 10px;
 }
 
+.btn-submit{
+    color: #000;
+    background-color:  rgb(188, 188, 182);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px;
+    border-radius: 50px;
+    padding: 7px 42px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 25px;
+}
+
 #header{
     background-color:  rgb(255, 244, 232);
     text-align: center;
@@ -112,10 +127,35 @@ h1{
     margin: 10px;
 }
 
+h4{color: rgba(137, 202, 72, 0.788);}
+
 h6{
    font-size: 40px;
    margin: 45px auto 40px;
 }
+
+h7{
+    font-size: 40px;
+}
+
+h8{
+    font-size: 50px;
+    border-bottom: 4px solid orange;
+    display: inline-block;
+}
+
+h9{
+    font-size: 54px;
+    border-bottom: 4px #fff;
+}
+
+h12{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p{ margin-left: 20px; margin-top: 30px;}
+
 
 #vid-container{
     display: flex;
@@ -134,6 +174,81 @@ h6{
 #section{
     padding-left: 50px;
 }
+
+#ways-container h3{
+    margin: 25px auto 35px;
+}
+
+#ways-container{
+    background-color: rgba(200, 230, 201, 0.477);
+    text-align: center;
+    margin: 25px auto 25px;
+}
+
+#ways-cards-container{
+    margin-left: 250px;
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto 35px;
+
+}
+
+.card{
+    background-color: #fff;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+#inspiriational-cards-container{
+    display: flex;
+    margin-left: 240px;
+}
+
+#inspire-section{
+    margin: 80px auto auto 10px;
+}
+
+#inspire-section h10{
+    margin: 0px;
+    font-size: 53px;
+    color: rgb(255, 156, 80);
+}
+
+#give-open-container{
+    background-color: rgba(200, 230, 201, 0.477);
+    display: flex;
+}
+
+#give-open-text{
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+
+.give-open-pic{
+    width: 440px;
+    margin: 80px;
+}
+
+.radio-btn-container{
+    margin: 10px;
+    margin-left: 0px;
+    font-size: 13px;
+    background-color: #ffffffd6;
+    border-radius: 5px;
+    border: 3px;
+    width: 340px;
+    height: 30px;
+}
+
+.main-card{ margin: 50px; margin-left: 100px; width: 350px; height: 440px;}
+
+.sec-card{ margin: 30px; margin-left: 0px; width: 160px; height: 200px;}
+
+.prev-next-btns{width: 55px; height: 55px; margin: 70px 10px auto 10px;}
 
 
 /* mobile responsive vertical */
